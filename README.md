@@ -1,5 +1,5 @@
 # Week6 Homework: Weather Dashboard
-My solution, hosted using Github Pages:
+My solution, hosted using Github Pages: https://raven-bootcamp.github.io/week6-homework-weather/
 
 The repository with my code: https://github.com/raven-bootcamp/week6-homework-weather
 
