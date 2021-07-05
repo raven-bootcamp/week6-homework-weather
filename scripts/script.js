@@ -154,7 +154,10 @@ var fiveDayForecast = function(forecast) {
         humiditySpan.textContent = forecast.daily[i].humidity;
 
         var windSpan = document.querySelector("#wind-speed-" + i);
-        windSpan.textContent = forecast.daily[i].wind_speed;
+        
+        // set the wind speed to 1 decimal place
+        var roundedWind = forecast.daily[i].wind_speed.toFixed(1);
+        windSpan.textContent = roundedWind;
     }
 }
 
